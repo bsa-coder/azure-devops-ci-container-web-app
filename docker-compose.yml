@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  myhealth.web:
+    image: containerwebapp
+    build:
+      context: ./src/ContainerWebApp
+      dockerfile: Dockerfile
