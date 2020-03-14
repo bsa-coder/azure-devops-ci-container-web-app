@@ -2,5 +2,6 @@
 ARG source
 WORKDIR /src
 EXPOSE 80
-COPY obj/Docker/publish /app
 ENTRYPOINT ["dotnet", "ContainerWebApp.dll"]
+#COPY obj/Docker/publish /app
+
