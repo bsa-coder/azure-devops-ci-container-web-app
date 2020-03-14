@@ -5,8 +5,8 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
-
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
   </ItemGroup>
 
 </Project>
