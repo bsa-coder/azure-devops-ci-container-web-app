@@ -4,5 +4,5 @@ services:
   containerwebapp:
     image: containerwebapp
     build:
-      context: ./ContainerWebApp
+      context: ./src/ContainerWebApp
       dockerfile: Dockerfile
