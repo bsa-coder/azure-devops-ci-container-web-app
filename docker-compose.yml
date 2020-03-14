@@ -3,9 +3,6 @@ version: '3'
 services:
   containerwebapp:
     image: containerwebapp
-    volumes:
-      - .:/src
-    working_dir: /src
     build:
       context: ./ContainerWebApp
       dockerfile: Dockerfile
