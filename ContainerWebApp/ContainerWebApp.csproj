@@ -6,6 +6,84 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="._Program.cs" />
+    <Compile Remove="._Startup.cs" />
+    <Compile Remove="Controllers\._HomeController.cs" />
+    <Compile Remove="Models\._ErrorViewModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="._appsettings.Development.json" />
+    <Content Remove="._appsettings.json" />
+    <Content Remove="Properties\._launchSettings.json" />
+    <Content Remove="Views\.__ViewImports.cshtml" />
+    <Content Remove="Views\.__ViewStart.cshtml" />
+    <Content Remove="Views\Home\._Index.cshtml" />
+    <Content Remove="Views\Home\._Privacy.cshtml" />
+    <Content Remove="Views\Shared\._Error.cshtml" />
+    <Content Remove="Views\Shared\.__CookieConsentPartial.cshtml" />
+    <Content Remove="Views\Shared\.__Layout.cshtml" />
+    <Content Remove="Views\Shared\.__ValidationScriptsPartial.cshtml" />
+    <Content Remove="wwwroot\._css" />
+    <Content Remove="wwwroot\._favicon.ico" />
+    <Content Remove="wwwroot\._js" />
+    <Content Remove="wwwroot\._lib" />
+    <Content Remove="wwwroot\css\._site.css" />
+    <Content Remove="wwwroot\js\._site.js" />
+    <Content Remove="wwwroot\lib\._bootstrap" />
+    <Content Remove="wwwroot\lib\._jquery" />
+    <Content Remove="wwwroot\lib\._jquery-validation" />
+    <Content Remove="wwwroot\lib\._jquery-validation-unobtrusive" />
+    <Content Remove="wwwroot\lib\bootstrap\._dist" />
+    <Content Remove="wwwroot\lib\bootstrap\._LICENSE" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\._css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\._js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\._bootstrap-grid.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\._bootstrap-grid.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\._bootstrap-grid.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\._bootstrap-grid.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\._bootstrap-reboot.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\._bootstrap-reboot.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\._bootstrap-reboot.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\._bootstrap-reboot.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\._bootstrap.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\._bootstrap.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\._bootstrap.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\._bootstrap.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\._bootstrap.bundle.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\._bootstrap.bundle.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\._bootstrap.bundle.min.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\._bootstrap.bundle.min.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\._bootstrap.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\._bootstrap.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\._bootstrap.min.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\._bootstrap.min.js.map" />
+    <Content Remove="wwwroot\lib\jquery-validation\._dist" />
+    <Content Remove="wwwroot\lib\jquery-validation\._LICENSE.md" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\._additional-methods.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\._additional-methods.min.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\._jquery.validate.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\._jquery.validate.min.js" />
+    <Content Remove="wwwroot\lib\jquery\._dist" />
+    <Content Remove="wwwroot\lib\jquery\._LICENSE.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".dockerignore" />
+    <None Remove="._.dockerignore" />
+    <None Remove="._bin" />
+    <None Remove="._Controllers" />
+    <None Remove="._Dockerfile" />
+    <None Remove="._Models" />
+    <None Remove="._obj" />
+    <None Remove="._Properties" />
+    <None Remove="._Views" />
+    <None Remove="._wwwroot" />
+    <None Remove="Views\._Home" />
+    <None Remove="Views\._Shared" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentValidation" Version="8.6.2" />
   </ItemGroup>
 
